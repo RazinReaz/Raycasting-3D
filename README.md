@@ -1,6 +1,6 @@
 # Raycasting 3D
 ![Raycasting 3D](./assets/raycasting.gif)
-A  3D renderer using raycasting, inspired by the game Wolfenstein 3D. Click [here]() to interact.
+A  3D renderer using raycasting, inspired by the game Wolfenstein 3D. Click [here](https://razinreaz.github.io/raycasting-3D/) to interact.
 
 # How to run locally
 - clone the repository
