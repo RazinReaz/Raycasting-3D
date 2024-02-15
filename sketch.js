@@ -14,9 +14,6 @@ function keyPressed() {
   } else if (keyCode == LEFT_ARROW) {
     player.turnDirection = -1;
   }
-  if (keycode == 'i') {
-    renderGrid = !renderGrid;
-  }
 }
 
 function keyReleased() {
