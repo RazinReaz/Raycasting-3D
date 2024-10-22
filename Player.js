@@ -59,7 +59,6 @@ class Player {
       var ray = new Ray(rayAngle);
       ray.RayCast();
       rays.push(ray);
-
       rayAngle += angle_Increment;
     }
   }
@@ -67,7 +66,7 @@ class Player {
   render3DView() {
     for (var i = 0; i < number_of_rays; i++) {
       var ray = rays[i];
-      //cos(angle is to correct the fishbowl effect)
+      //cos(angle) is to correct the fishbowl effect
       var wallDistance = ray.distance * cos(ray.rayAngle - this.rotationAngle);
 
       var distanceProjectionPlane = (screenWidth / 2) / tan(FieldOfView / 2);

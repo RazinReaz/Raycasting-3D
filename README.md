@@ -5,6 +5,8 @@ A  3D renderer using raycasting, inspired by the game Wolfenstein 3D. Click [her
 # How to run locally
 - clone the repository
 - open `index.html` in Mozilla Firefox Web Browser
+- optionally, you can change the map by changing the `grid` array in `map.js`
+
 # Controls
 - use the arrow keys to move
 

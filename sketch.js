@@ -38,12 +38,20 @@ function setup() {
 function update() {
   player.update();
   player.castAllRays();
+}
 
+function show_instructions(){
+  push()
+  textSize(12);
+  fill(255);
+  text("Use the arrow keys to move", screenWidth - 170, 20);
+  pop()
 }
 
 
 function draw() {
   background(0);
+  show_instructions();
   update();
   player.render3DView();
 
